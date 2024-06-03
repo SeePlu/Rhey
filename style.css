@@ -1,0 +1,50 @@
+.btn-outline-success {
+  cloor: #9cbad2;
+  border-color: #9cbad2;
+}
+
+.btn-outline-success:hover {
+  background-color: #9cbad2;
+  color: black;
+}
+
+.btn-outline-success:visited {
+  background-color: #9cbad2;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline-success:active {
+  background-color: #9cbad2;
+  color: black;
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .third-line {
+    display: block;
+  }
+}
